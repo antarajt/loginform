@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #0c0a0f;
+}
+.form{
+
+    position: relative;
+    width: 300px;
+    padding: 60px 15px;
+    height: 380px;
+    box-shadow: 0px 0px 10px 0px rgb(116, 119, 114);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.form-inner{
+
+    position: absolute;
+    height: 98%;
+    width: 98%;
+    top: 50%;
+    left: 50%;
+    background-color: #0c0a0f;
+    transform: translate(-50%, -50%);
+}
+.form-inner h2{
+
+    color:  #fff;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.form-inner input{
+
+    display: block;
+    padding: 12px 15px;
+    width: 100%;
+    left: 50%;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1.5px solid #68f8ee;
+    outline: none;
+    background-color: #0c0a0f;
+    color: white;
+}
+
+.form-inner input:hover{
+
+    box-shadow: 0px 0px 10px 0px rgb(104, 248, 238);
+}
+
+.t-btn{
+
+    color: white;
+    margin-top: 40px;
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    background-color: #0c0a0f;
+    border: 1px solid #68f8ee;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.t-btn:hover{
+
+    background-color: #68f8ee;
+    color: #333;
+    font-weight: 600;
+}
+
+/* animation start*/
+
+.form span{
+
+    position: absolute;
+    height: 50%;
+    width: 50%;
+
+}
+/* for 1st line  */
+.form span:nth-child(1){
+
+     background-color: #68f8ee;
+     top: 0;
+     left: -49%;
+     animation: 5s span1 infinite linear;
+     animation-delay: 1s;
+
+}
+@keyframes span1 {
+    
+    0%{
+
+        top: -48%;
+        left: -48%;
+    }
+    25%{
+
+        top: -48%;
+        left: 98%;
+    }
+
+    50%{
+
+        top: 98%;
+        left: 98%;
+    }
+    75%{
+
+        top: 98%;
+        left: -48%;
+    }
+    100%{
+
+        top: -48%;
+        left: -48%;
+    }
+}
+
+/* for 2st line  */
+.form span:nth-child(2){
+
+    background-color: #68f8ee;
+    bottom: 0;
+    right: -49%;
+    animation: 5s span2 infinite linear;
+    
+
+}
+@keyframes span2 {
+   
+   0%{
+
+       bottom: -48%;
+       right: -48%;
+   }
+   25%{
+
+       bottom: -48%;
+       right: 98%;
+   }
+
+   50%{
+
+       bottom: 98%;
+       right: 98%;
+   }
+   75%{
+
+       bottom: 98%;
+       right: -48%;
+   }
+   100%{
+
+       bottom: -48%;
+       right: -48%;
+   }
+}
+
+.form span:nth-child(3){
+
+    background-color: #68f8ee;
+    top: 0;
+    left: -49%;
+    animation: 5s span1 infinite linear;
+  
+
+}
+@keyframes span3 {
+   
+   0%{
+
+       top: -48%;
+       left: -48%;
+   }
+   25%{
+
+       top: -48%;
+       left: 98%;
+   }
+
+   50%{
+
+       top: 98%;
+       left: 98%;
+   }
+   75%{
+
+       top: 98%;
+       left: -48%;
+   }
+   100%{
+
+       top: -48%;
+       left: -48%;
+   }
+}
+
+/* for 2st line  */
+.form span:nth-child(4){
+
+    background-color: #68f8ee;
+    bottom: 0;
+    right: -49%;
+    animation: 5s span2 infinite linear;
+    animation-delay: 1s;
+    
+
+}
+@keyframes span4 {
+   
+   0%{
+
+       bottom: -48%;
+       right: -48%;
+   }
+   25%{
+
+       bottom: -48%;
+       right: 98%;
+   }
+
+   50%{
+
+       bottom: 98%;
+       right: 98%;
+   }
+   75%{
+
+       bottom: 98%;
+       right: -48%;
+   }
+   100%{
+
+       bottom: -48%;
+       right: -48%;
+   }
+}
+
+
+/* animation end*/
